@@ -1,0 +1,14 @@
+<?php
+
+//compare both values and keys
+
+$a = ["a" => "robeen", "b" => "nayeem", "c" => "patwary", "d" => "ebu"];
+$b = ["a" => "robeen", "e" => "nayeem", "d" => "ebu"];
+
+$newArray = array_diff_assoc($a, $b);
+
+echo "<pre>";
+print_r($newArray);
+echo "</pre>";
+
+?>
